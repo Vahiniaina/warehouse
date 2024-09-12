@@ -4,6 +4,7 @@ services:
 
   postgres:
     image: postgres_example
+    container_name: postgres_container
     environment:
       POSTGRES_DB: exampledb
       POSTGRES_USER: exampleuser
