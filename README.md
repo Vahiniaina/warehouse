@@ -22,7 +22,7 @@ Our objective is to create a data warehouse with pre-existing data, enabling us 
    ```bash
    cd warehouse
    docker build -t postgres_example .
-   docker compose up
+
 
 5. Running the container:
    ```bash
